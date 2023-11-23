@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Sorting Visualizer</title>
+</head>
+<body>
+  <div class="container">
+    
+    <div><h1> SORTING ALGORITHM VISUALIZER</h1></div>
+
+    <div class="bars_container" id="bars_container"></div>
+
+    <div class="buttons_container">
+      <input
+        type="range"
+        id="slider"
+        min="50"
+        max="150"
+        step="5"
+        value="50"
+      />
+
+      <select name="" id="speed">
+        <option value="100">Slow</option>
+        <option value="50">Medium</option>
+        <option value="10">Fast</option>
+      </select>
+
+      <!-- Separate buttons for each sorting algorithm -->
+      <button id="randomize_array_btn">Randomize Array</button>
+      <button id="bubble_sort_btn">Bubble Sort</button>
+      <button id="selection_sort_btn">Selection Sort</button>
+      <button id="insertion_sort_btn">Insertion Sort</button>
+      <button id="merge_sort_btn">Merge Sort</button>
+      <button id="quick_sort_btn">Quick Sort</button>
+      <button id="shell_sort_btn">Shell Sort</button>
+    </div>
+  </div>
+
+  <script defer src="index.js"></script>
+</body>
+</html> 
+
+ 
